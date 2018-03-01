@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`route / 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 100,
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    Hello
+  </h1>
+  <h3>
+    <a
+      href="#next"
+      onClick={[Function]}
+    >
+      next page
+    </a>
+  </h3>
+</div>
+`;
+
+exports[`route /next 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 100,
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    Hello
+  </h1>
+  <h3>
+    <a
+      href="#next"
+      onClick={[Function]}
+    >
+      next page
+    </a>
+  </h3>
+</div>
+`;

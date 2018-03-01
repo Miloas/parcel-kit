@@ -1,0 +1,14 @@
+# output
+/dist
+/.cache
+/app/main/.parcel
+/.coverage
+
+# dependencies
+/node_modules
+
+# logs
+*.log
+
+.DS_Store
+.vscode/
