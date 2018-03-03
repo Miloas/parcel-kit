@@ -7,7 +7,7 @@
     "start": "concurrently --kill-others \"yarn dev\" \"yarn electron\"",
     "dist": "yarn build && build --dir --x64 --publish=never",
     "electron": "electron .",
-    "dev": "parcel app/renderer/index.html -p 1729 -d app/main/.parcel/development",
+    "dev": "parcel app/renderer/index.html -p 1729 -d app/main/.parcel/development --target=electron",
     "build": "parcel build app/renderer/index.html --public-url ./ -d app/main/.parcel/production --target=electron",
     "test": "jest",
     "lint": "tslint 'app/**/*.ts{,x}' -p tsconfig.json",
